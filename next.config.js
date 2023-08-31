@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const withImages = require("next-images");
+module.exports = withImages();
+const nextConfig = {
+  images: {
+    domains: ["th.bing.com"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
