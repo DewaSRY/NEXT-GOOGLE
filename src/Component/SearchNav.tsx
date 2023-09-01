@@ -11,7 +11,6 @@ const SearchNav: FC<SearchNavProps> = (): JSX.Element => {
   const searchParams = useSearchParams();
   const searchTerms = searchParams.get("searchTerm");
   const phatNameIsWeb = pathname === "web";
-  console.log(phatNameIsWeb);
   return (
     <div className={style.searchNav}>
       <Link
