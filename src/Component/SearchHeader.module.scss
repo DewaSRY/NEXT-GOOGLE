@@ -1,0 +1,16 @@
+.searchHeader {
+    width: 100%;
+    max-width: 100rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    border-bottom: solid 1px rgb(171, 159, 136);
+    margin-bottom: 1rem;
+    span {
+        flex-grow: 2;
+        margin-left: 3rem;
+    }
+}

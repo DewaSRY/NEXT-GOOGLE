@@ -1,0 +1,27 @@
+.searchNav {
+    width: 100%;
+    max-width: 100rem;
+    margin: auto;
+    display: flex;
+
+    a {
+        display: flex;
+        align-items: center;
+        font-size: 1.4rem;
+        width: 7rem;
+        text-decoration: none;
+        outline: none;
+        margin-left: 1rem;
+        color: rgb(43, 32, 32);
+        svg {
+            margin-right: 0.5rem;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+.active {
+    color: rgb(77, 77, 241) !important;
+    text-decoration: underline;
+}

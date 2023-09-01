@@ -1,3 +1,5 @@
+import SearchHeader from "@/Component/SearchHeader";
+import SearchNav from "@/Component/SearchNav";
 import { NextPage } from "next";
 import { ReactNode } from "react";
 interface layoutProps {
@@ -5,7 +7,13 @@ interface layoutProps {
 }
 
 const layout: NextPage<layoutProps> = ({ children }) => {
-  return <div>{children}</div>;
+  return (
+    <div>
+      <SearchHeader />
+      <SearchNav />
+      {children}
+    </div>
+  );
 };
 
 export default layout;
