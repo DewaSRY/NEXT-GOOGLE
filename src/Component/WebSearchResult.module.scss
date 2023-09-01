@@ -1,0 +1,33 @@
+.ResultPage {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 100rem;
+    padding-bottom: 2rem;
+    height: 70rem;
+    overflow-y: scroll;
+    margin: auto;
+    p {
+        color: rgb(134, 105, 105);
+        font-size: 1.2rem;
+        margin-top: 0.7rem;
+    }
+}
+.result {
+    color: rgb(134, 105, 105);
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+    padding: 1rem;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    h2 {
+        font-size: 2rem;
+        color: rgb(38, 29, 29);
+    }
+    p {
+        max-width: 60rem;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,16 @@
+.ImageResult {
+    width: 100%;
+    max-width: 100rem;
+    height: 70rem;
+    overflow-y: scroll;
+    margin: auto;
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        div {
+            margin: 0.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

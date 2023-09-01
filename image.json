@@ -1,0 +1,208 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - google",
+                "totalResults": "960390000000",
+                "searchTerms": "google",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "822bb8f55521f4067",
+                "searchType": "image"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - google",
+                "totalResults": "960390000000",
+                "searchTerms": "google",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "822bb8f55521f4067",
+                "searchType": "image"
+            }
+        ]
+    },
+    "context": {
+        "title": "v-8"
+    },
+    "searchInformation": {
+        "searchTime": 0.421971,
+        "formattedSearchTime": "0.42",
+        "totalResults": "960390000000",
+        "formattedTotalResults": "960,390,000,000"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Android Apps by Google LLC on Google Play",
+            "htmlTitle": "Android Apps by <b>Google</b> LLC on <b>Google</b> Play",
+            "link": "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw",
+            "displayLink": "play.google.com",
+            "snippet": "1- ...",
+            "htmlSnippet": "1- ...",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://play.google.com/store/apps/dev?id=5700313618786177705&hl=en_US&gl=US",
+                "height": 2160,
+                "width": 3840,
+                "byteSize": 56292,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSubYC-amIk52ZFiNdekmUwsWmXYJyQwWZHyUpkdscq_cKOO2e0EACKlMI&s",
+                "thumbnailHeight": 84,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Google Forms: Online Form Creator | Google Workspace",
+            "htmlTitle": "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+            "link": "https://lh3.googleusercontent.com/fAQAzXOc_vdu9y9UjXqvGqWbaL0bdJq1CCxljUModhJUA0trlXlHs8gMiOZwcDM_g94h1w9rjIz6YKJqTqpQKmWydv5nNohvkd-x_EkkPbJCzbgtDSQ=s0",
+            "displayLink": "www.google.com",
+            "snippet": "Google Forms: Online Form Creator | Google Workspace",
+            "htmlSnippet": "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://www.google.com/forms/about/",
+                "height": 730,
+                "width": 1120,
+                "byteSize": 35432,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkM53eT9DEiRwHhFo9EQwQLdkYlQuT7F4HLC2pla2vIGyxyYLRwGQxey0&s",
+                "thumbnailHeight": 98,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Celebrating 10 years of Google Play",
+            "htmlTitle": "Celebrating 10 years of <b>Google</b> Play",
+            "link": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/play_10_year-keyword_asset-.png",
+            "displayLink": "blog.google",
+            "snippet": "Celebrating 10 years of Google Play",
+            "htmlSnippet": "Celebrating 10 years of <b>Google</b> Play",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://blog.google/products/google-play/10-favorite-moments-from-a-decade-of-google-play/",
+                "height": 1182,
+                "width": 2096,
+                "byteSize": 53716,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4nVQtI6rBAYhOfCUmPoEEa47i54kkV3OalnjvLBEun1VbYSBER3QVSyc&s",
+                "thumbnailHeight": 85,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Google Forms: Online Form Creator | Google Workspace",
+            "htmlTitle": "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+            "link": "https://lh3.googleusercontent.com/YvDfJ1PG-QOoaUM21D7V54tkIk-oiDJijnACQ51fMiC40KNqx5LHJbQBEEzhk4i4iuOTh-weqftfN4S6LuQDre5DhrddWaIGoJnKW2W5Hk-vQCWEG3I=s0",
+            "displayLink": "www.google.com",
+            "snippet": "Google Forms: Online Form Creator | Google Workspace",
+            "htmlSnippet": "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://www.google.com/forms/about/",
+                "height": 730,
+                "width": 1120,
+                "byteSize": 36335,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYy4a1fjP2I4q8xUWbXhm1_CBKJfOgvJf9V0_X-YrcRCFp-PL58DnO2M&s",
+                "thumbnailHeight": 98,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Apple, Google partner on an industry specification to address ...",
+            "htmlTitle": "Apple, <b>Google</b> partner on an industry specification to address ...",
+            "link": "https://www.apple.com/newsroom/images/partnerships/Apple-Google-partner-industry-specification-hero_inline.jpg.slideshow-xlarge_2x.jpg",
+            "displayLink": "www.apple.com",
+            "snippet": "Apple, Google partner on an industry specification to address ...",
+            "htmlSnippet": "Apple, <b>Google</b> partner on an industry specification to address ...",
+            "mime": "image/jpeg",
+            "fileFormat": "image/jpeg",
+            "image": {
+                "contextLink": "https://www.apple.com/newsroom/2023/05/apple-google-partner-on-an-industry-specification-to-address-unwanted-tracking/",
+                "height": 2202,
+                "width": 3918,
+                "byteSize": 143604,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzlWel0Pv5BJTO-Ki0SqvIc3tJROvXY_MGDPUHiOymNq0bEilU9llTwM&s",
+                "thumbnailHeight": 84,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Get on Discover | Google Search Central | Documentation | Google ...",
+            "htmlTitle": "Get on Discover | <b>Google</b> Search Central | Documentation | <b>Google</b> ...",
+            "link": "https://developers.google.com/static/search/docs/images/google-discover.png",
+            "displayLink": "developers.google.com",
+            "snippet": "Get on Discover | Google Search Central | Documentation | Google ...",
+            "htmlSnippet": "Get on Discover | <b>Google</b> Search Central | Documentation | <b>Google</b> ...",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://developers.google.com/search/docs/appearance/google-discover",
+                "height": 2800,
+                "width": 1400,
+                "byteSize": 61122,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaTAsB-e5uK78JYuihfw3F3WhgHhoTh02BzCsT3g557SWlNmMFaScsMQ&s",
+                "thumbnailHeight": 150,
+                "thumbnailWidth": 75
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Apple, Google partner on an industry specification to address ...",
+            "htmlTitle": "Apple, <b>Google</b> partner on an industry specification to address ...",
+            "link": "https://www.apple.com/newsroom/images/partnerships/Apple-Google-partner-industry-specification-hero_inline.jpg.slideshow-large_2x.jpg",
+            "displayLink": "www.apple.com",
+            "snippet": "Apple, Google partner on an industry specification to address ...",
+            "htmlSnippet": "Apple, <b>Google</b> partner on an industry specification to address ...",
+            "mime": "image/jpeg",
+            "fileFormat": "image/jpeg",
+            "image": {
+                "contextLink": "https://www.apple.com/newsroom/2023/05/apple-google-partner-on-an-industry-specification-to-address-unwanted-tracking/",
+                "height": 1395,
+                "width": 2481,
+                "byteSize": 85093,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbhYXIS9Ox6zxhOGA9Oh-kZI8uHGyz1gcmt0AXglA8lRjzfzklLq8tNp8&s",
+                "thumbnailHeight": 84,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Google Forms: Online Form Creator | Google Workspace",
+            "htmlTitle": "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+            "link": "https://lh3.googleusercontent.com/J9lh-PeDedUGRAnyyubSKLaEj4oKLZqbpVazF-ji7-QIxFtekSdS-SzrpN08Fh13UD-yuvYYRKj-XRtUqWQqUy-Wx74PmbDs4tkXzmg7Kb6OVo_LzW4=s0",
+            "displayLink": "www.google.com",
+            "snippet": "Google Forms: Online Form Creator | Google Workspace",
+            "htmlSnippet": "<b>Google</b> Forms: Online Form Creator | <b>Google</b> Workspace",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://www.google.com/forms/about/",
+                "height": 730,
+                "width": 1120,
+                "byteSize": 34971,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwsAFux3qMs4ULlQaneGMkFdPLs7adWFGJfCm-MV_ekJYAvBmK3sb-NCo&s",
+                "thumbnailHeight": 98,
+                "thumbnailWidth": 150
+            }
+        }
+    ]
+}
