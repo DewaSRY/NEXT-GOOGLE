@@ -1,21 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import style from "./HomeSearch.module.scss";
-import { FC, useState, FormEventHandler, useEffect } from "react";
-import { BsSearch, BsMic, BsCamera } from "react-icons/bs";
+import { FC, useState } from "react";
+
 import { useRouter } from "next/navigation";
+import GoogleSearch from "./GoogleSearch";
 interface HomeSearchProps {}
 
 const HomeSearch: FC<HomeSearchProps> = (): JSX.Element => {
-  const [search, setSearch] = useState<string>("");
   const [searchLoading, setLoading] = useState(false);
+  const [search, setSearch] = useState<string>("");
   const router = useRouter();
-  const onSubmitHandler: FormEventHandler = (e) => {
-    e.preventDefault();
-    handleSearch();
-  };
   const handleSearch = (input: string = search) =>
     !input.trim() ? "" : router.push(`/search/web?searchTerm=${input}`);
+
   const randomSearch = async (cb: (arg: string) => void) =>
     fetch("https://random-word-api.herokuapp.com/word")
       .then((res) => res.json())
@@ -24,16 +22,11 @@ const HomeSearch: FC<HomeSearchProps> = (): JSX.Element => {
 
   return (
     <>
-      <form onSubmit={onSubmitHandler} className={style.HomeSearch}>
-        <BsSearch />
-        <input
-          type="text"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-        <BsMic />
-        <BsCamera />
-      </form>
+      <GoogleSearch
+        handleSearch={handleSearch}
+        input={search}
+        handelInput={setSearch}
+      />
       <div className={style.HomeButton}>
         <button onClick={() => handleSearch()}>Google Search</button>
         <button
