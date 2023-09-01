@@ -1,0 +1,37 @@
+{
+    "kind": "customsearch#result",
+    "title": "Mandel Lectures | Mandel Center for the Humanities ... - Waltham",
+    "htmlTitle": "Mandel <b>Lectures</b> | Mandel Center for the Humanities ... - Waltham",
+    "link": "https://www.brandeis.edu/mandel-center-humanities/mandel-lectures.html",
+    "displayLink": "www.brandeis.edu",
+    "snippet": "Annual Lecture Series. ... The goal of the Mandel Lectures in the Humanities is to promote the study of the humanities at Brandeis University.",
+    "htmlSnippet": "Annual <b>Lecture</b> Series. ... The goal of the Mandel <b>Lectures</b> in the Humanities is to promote the study of the humanities at Brandeis University.",
+    "cacheId": "cQLOZr0kgEEJ",
+    "formattedUrl": "https://www.brandeis.edu/mandel-center-humanities/mandel-lectures.html",
+    "htmlFormattedUrl": "https://www.brandeis.edu/mandel-center-humanities/mandel-<b>lectures</b>.html",
+    "pagemap": {
+        "cse_thumbnail": [
+            {
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQWlU7bcJ5pIHk7RBCk2QKE-48ejF7hyPV0pr-20_cBt2BGdfKtiYXBuyw",
+                "width": "275",
+                "height": "183"
+            }
+        ],
+        "metatags": [
+            {
+                "og:image": "https://www.brandeis.edu/mandel-center-humanities/events/events-images/mlhzumba",
+                "twitter:card": "summary_large_image",
+                "viewport": "width=device-width,initial-scale=1,minimum-scale=1",
+                "og:title": "Mandel Lectures in the Humanities",
+                "og:url": "https://www.brandeis.edu/mandel-center-humanities/mandel-lectures.html",
+                "og:description": "Annual Lecture Series",
+                "twitter:image": "https://www.brandeis.edu/mandel-center-humanities/events/events-images/mlhzumba"
+            }
+        ],
+        "cse_image": [
+            {
+                "src": "https://www.brandeis.edu/mandel-center-humanities/events/events-images/mlhzumba"
+            }
+        ]
+    }
+}
